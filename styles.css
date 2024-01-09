@@ -1,0 +1,145 @@
+* {
+	color: white;
+	margin: auto;
+	line-height: 1.75;
+	white-space: inherit;
+	word-wrap: break-word;
+}
+
+h1 {
+	text-align: center;
+	width:100%;
+	background-color: red;
+}
+
+h2 {
+	text-align: center;
+	width:100%;
+	background-color: green;
+}
+
+h3 {
+	margin: 10px;
+	text-align: center;
+}
+
+p {
+	margin: 10px;
+	text-align: justify;
+}
+
+.site-container {
+	width: 85%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	align-items: stretch;
+	max-width: 100%;
+}
+
+.title-container {
+	margin-bottom: 2%;
+}
+
+nav {
+	margin: 0;
+	margin-bottom: 20px;
+	background-color: gray;
+	overflow: visible;
+	white-space: inherit;
+}
+
+article {
+	background-color: darkblue;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 85%;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: row;
+	background-color: blue;
+	justify-content: space-between;
+	max-width: 100%;
+}
+
+.sidebar-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	background-color: purple;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: visible;
+	width: 25%;
+	max-width: 25%;
+	white-space: normal;
+}
+
+.navigation-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	background-color: purple;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: visible;
+	width: 25%;
+	max-width: 25%;
+	white-space: normal;
+}
+
+
+section {
+	width: 100%;
+	height: 50%;
+	margin: auto;
+	overflow: visible;
+	white-space: inherit;
+}
+
+.newest-video {
+	background-color: darkolivegreen;
+}
+
+.placeable-button {
+	background-color: darkorange;
+}
+
+
+.artwork-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: darkolivegreen;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.artwork {
+	display: flex;
+	flex-direction: column;
+	justify-content: normal;
+	width: auto;
+	background-color: darksalmon;
+	margin: 2%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.artwork-image {
+	width:200px;
+	height:200px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.artwork-desc {
+	background-color: red;
+	text-align: center;
+}
