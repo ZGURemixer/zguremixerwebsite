@@ -1,26 +1,42 @@
+@import url("fonts/Montserrat.css");
+
+body {
+	background-color: black;
+}
+
 * {
 	color: white;
 	margin: auto;
 	line-height: 1.75;
 	white-space: inherit;
 	word-wrap: break-word;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-shadow: 0px 0px 7px black;
 }
 
 h1 {
 	text-align: center;
 	width:100%;
 	background-color: red;
+	font-weight: 800;
+	font-size: 25px;
 }
 
 h2 {
 	text-align: center;
 	width:100%;
 	background-color: green;
+	font-weight: 800;
+	font-size: 25px;
 }
 
 h3 {
 	margin: 10px;
 	text-align: center;
+	font-weight: 800;
+	font-size: 25px;
 }
 
 p {
@@ -43,13 +59,11 @@ p {
 nav {
 	margin: 0;
 	margin-bottom: 20px;
-	background-color: gray;
 	overflow: visible;
 	white-space: inherit;
 }
 
 article {
-	background-color: darkblue;
 	margin-right: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -59,7 +73,6 @@ article {
 .content-container {
 	display: flex;
 	flex-direction: row;
-	background-color: blue;
 	justify-content: space-between;
 	max-width: 100%;
 }
@@ -68,7 +81,6 @@ article {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
-	background-color: purple;
 	margin-right: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -76,13 +88,14 @@ article {
 	width: 25%;
 	max-width: 25%;
 	white-space: normal;
+	align-items: stretch;
 }
 
 .navigation-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
-	background-color: purple;
+	align-items: stretch;
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 2%;
@@ -96,27 +109,18 @@ article {
 
 section {
 	width: 100%;
-	height: 50%;
-	margin: auto;
+	height: 45%;
+	margin: 0;
+	margin-bottom: 20px;
 	overflow: visible;
 	white-space: inherit;
 }
-
-.newest-video {
-	background-color: darkolivegreen;
-}
-
-.placeable-button {
-	background-color: darkorange;
-}
-
 
 .artwork-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
-	background-color: darkolivegreen;
 	margin-left: 4%;
 	margin-right: 4%;
 }
@@ -126,10 +130,11 @@ section {
 	flex-direction: column;
 	justify-content: normal;
 	width: auto;
-	background-color: darksalmon;
 	margin: 2%;
 	max-width: 100%;
 	max-height: 100%;
+	white-space: pre-wrap;
+	overflow: hidden;	
 }
 
 .artwork-image {
@@ -137,9 +142,39 @@ section {
 	height:200px;
 	max-width: 100%;
 	max-height: 100%;
+	white-space: pre-wrap;
+	overflow: hidden;
+	object-fit: cover;
+	margin: 6px;		
 }
 
 .artwork-desc {
-	background-color: red;
 	text-align: center;
+	white-space: pre-wrap;
+	overflow: hidden;
+	margin: 0;
+}
+
+.silly-yippee {
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+
+.generic-element-1 {
+	border-radius: 20px 20px 20px 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	box-shadow: 0px 0px 6px black;
+	background-image: linear-gradient(0, darkred, darkblue);
+}
+
+.generic-element-2 {
+	border-radius: 20px 20px 20px 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	box-shadow: 0px 0px 6px black;
 }
