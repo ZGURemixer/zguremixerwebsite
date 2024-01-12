@@ -1,4 +1,4 @@
 # Mockups
-*.pptx
-*.png
-*.jpg
+*mockups/*
+*placeholders/*
+*beta_assets/*
