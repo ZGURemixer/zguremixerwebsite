@@ -11,11 +11,11 @@
 	font-weight: 600;
 	font-size: 20px;
 	text-shadow: 0px 0px 7px black;
-	opacity: 0;
-	animation: fadeInAnimation 1s ease-out forwards;
+/*	opacity: 0;
+	animation: fadeInAnimation 1s ease-out forwards;*/
 }
 
-@keyframes fadeInAnimation {
+/*@keyframes fadeInAnimation {
 	from {
 		opacity: 0;
 	}
@@ -23,7 +23,7 @@
 		opacity: 1;
 	}
 }
-
+*/
 body {
 	background-color: black;
 	background-image: url(background.svg);
@@ -239,15 +239,3 @@ header {
 	margin: 0;
 	text-align: center;
 }
-
-/*.clickable-item {
-	transition: transform 0.3s ease;
-}
-
-.clickable-item:active {
-	transform: scale(0.9);
-}
-
-.clickable-item:hover {
-	transform: scale(1.1);
-}*/
