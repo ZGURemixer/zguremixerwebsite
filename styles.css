@@ -1,0 +1,265 @@
+@import url("fonts/Montserrat/Montserrat.css");
+@import url("fonts/DOS/dos.css");
+
+* {
+	color: white;
+	margin: auto;
+	line-height: 1.75;
+	white-space: inherit;
+	word-wrap: break-word;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-shadow: 0px 0px 7px black;
+	opacity: 0;
+	animation: fadeInAnimation 1s ease-out forwards;
+}
+
+@keyframes fadeInAnimation {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+body {
+	background-color: black;
+	background-image: url(background.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	width:100%;
+	background-color: red;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+h2 {
+	text-align: center;
+	width:100%;
+	background-color: green;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+h3 {
+	margin: 10px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+p {
+	margin: 10px;
+	text-align: justify;
+}
+
+.site-container {
+	width: 85%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	align-items: stretch;
+	max-width: 100%;
+}
+
+.title-container {
+	margin-bottom: 2%;
+}
+
+nav {
+	margin: 0;
+	margin-bottom: 20px;
+	overflow: visible;
+	white-space: inherit;
+}
+
+#article-container {
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 85%;
+}
+
+#bandcamp-player {
+	text-align: center;
+	width: 75%;
+	border: 0;
+	justify-content: center;
+	height: 120px;
+	border-radius: 20px 20px 20px 20px;
+	border-style: solid;
+	box-shadow: 0px 0px 6px black;	
+}
+
+article {
+	margin: 0%;
+	width: 100%;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 100%;
+}
+
+.sidebar-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: visible;
+	width: 25%;
+	max-width: 25%;
+	white-space: normal;
+	align-items: stretch;
+}
+
+.navigation-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: visible;
+	width: 25%;
+	max-width: 25%;
+	white-space: normal;
+}
+
+
+section {
+	width: 100%;
+	height: 45%;
+	margin: 0;
+	margin-bottom: 20px;
+	overflow: visible;
+	white-space: inherit;
+}
+
+.artwork-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left: 4%;
+	margin-right: 4%;
+	overflow: visible;
+}
+
+.artwork {
+	display: flex;
+	flex-direction: column;
+	justify-content: normal;
+	width: auto;
+	margin: 2%;
+	max-width: 100%;
+	max-height: 100%;
+	white-space: pre-wrap;
+	overflow: hidden;	
+}
+
+.artwork-image {
+	width:200px;
+	height:200px;
+	max-width: 100%;
+	max-height: 100%;
+	white-space: pre-wrap;
+	overflow: hidden;
+	object-fit: cover;
+	margin: 6px;		
+}
+
+.artwork-desc {
+	text-align: center;
+	white-space: pre-wrap;
+	overflow: hidden;
+	margin: 0;
+}
+
+.silly-yippee {
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+
+.generic-element-1 {
+	border-radius: 20px 20px 20px 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	box-shadow: 0px 0px 6px black;
+	background-image: linear-gradient(0, darkred, darkblue);
+}
+
+.generic-element-2 {
+	border-radius: 20px 20px 20px 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	box-shadow: 0px 0px 6px black;
+}
+
+.code-block {
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 6px black;
+	background-color: black;
+	color: lightgreen;
+	margin: 4%;
+	line-height: 1.35;	
+	word-wrap: normal;
+	font-family: "DOS", normal;
+	font-weight: 100;
+	font-size: 10px;
+	text-shadow: 0px 0px 0px black;
+	text-align: left;
+	padding: 5px;
+	color: green;
+}
+
+header {
+	width: 100%;
+	max-width: 100%;
+}
+
+.title-image {
+	width: 25%;
+	max-width: 25%;
+	align-items: inherit;
+	justify-content: inherit;
+	margin: 0;
+	text-align: inherit;
+	filter: drop-shadow(0px 0px 6px black);
+}
+
+.title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.imglink {
+	margin: 0;
+	line-height: 0;
+	font-size: 0;
+	font-family: monospace;
+	font-weight: 0;
+}

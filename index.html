@@ -3,19 +3,64 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>ZGURemixer</title>
+		<script src="/content.js"></script>
+		<link rel="stylesheet" href="styles.css">
 	</head>
+	<body onload="getPageContent('home')">
+		<div class="site-container">
+			<div class="title-container">
+				<header>
+					<img class="title-image" src="logo.svg" alt="ZGU">
+				</header>
+			</div>
 
-	<body>
-		<div class="container">
-			<div id="main">
-				<nav>
-					<a href="/">Home</a>
-					<a href="/about">About</a>
-					<a href="/contact">Contact</a>
-				</nav>
-				<div id="content"></div>
+			<div class="content-container">
+				<div class="navigation-container">
+					<nav class="generic-element-1">
+						<h3>Navigation</h3>
+						<ol>
+							<li><a href="#" onclick="getPageContent('home')">
+								Home
+							</a></li>
+							<li><a href="#" onclick="getPageContent('socials')">
+								Socials
+							</a></li>
+							<li><a href="#" onclick="getPageContent('projects')">
+								Projects
+							</a></li>
+							<li><a href="#" onclick="getPageContent('fanart')">
+								Fanart
+							</a></li>
+							<li><a href="#" onclick="getPageContent('credit')">
+								Credit
+							</a></li>
+						</ul>
+						<p><p>
+					</nav>
+
+					<a href='https://www.youtube.com/@HankyumiB' target="_blank" class="imglink">
+						<img src="pikmin.svg" class="generic-element-1 silly-yippee" alt="An image of Roger's character in the style of the TBH creature.">	
+					</a>
+			
+				</div>
+
+				<div id="article-container"></div>
+
+				<div class="sidebar-container">
+					<section class="generic-element-1">
+						<h3>Best remix:</h3>
+						<p>[INSERT VIDEO HERE]</p>
+					</section>
+
+					<section class="generic-element-1">
+						<h3>Button:</h3>
+						<p>[INSERT BUTTON HERE]</p>
+						<div class="code-block">
+							a
+						</div>
+					</section>
+				</div>
 			</div>
 		</div>
-		<script src="url-router.js"></script>
 	</body>
 </html>
